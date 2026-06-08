@@ -7,8 +7,6 @@ from sklearn import preprocessing
 
 
 def Standardize(X):
-    """
-    Standardizes input data using StandardScaler
-    """
+    """Standardizes tabular data using StandardScaler"""
     scaler = preprocessing.StandardScaler()
     return scaler.fit_transform(X)

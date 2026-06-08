@@ -1,1 +1,1 @@
-# Unsupervised Learning - Standardization Task
+# Unsupervised Learning - Standardization
