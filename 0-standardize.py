@@ -1,11 +1,13 @@
 #!/usr/bin/env python3
 """
-This module contains a function to standardize tabular data using scikit-learn.
+Feature standardization module
 """
+
 from sklearn import preprocessing
 
 
 def Standardize(X):
-    """ Standardizes a numpy.ndarray using StandardScaler """
-    scaler = preprocessing.StandardScaler()
-    return scaler.fit_transform(X)
+    """
+    Standardizes tabular data.
+    """
+    return preprocessing.StandardScaler().fit_transform(X)
